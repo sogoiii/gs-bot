@@ -4,10 +4,12 @@
   "description": "Checks github search api. Can be used to see open and closed pull requests or issues.",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "angello pozo",
   "license": "MIT",
+  "engine": "node >= 4.0.0",
   "dependencies": {
     "github": "^1.1.2",
     "lodash": "^4.13.1",
